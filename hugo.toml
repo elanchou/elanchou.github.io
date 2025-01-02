@@ -76,6 +76,14 @@ weight = 30
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
+
 [params.assets]
 favicon = "icons/favicon.ico"
 favicon16x16 = "icons/favicon-16x16.png"
