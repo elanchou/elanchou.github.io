@@ -1,34 +1,34 @@
 ---
-title: "Web3 发展现状与未来展望"
+title: "Web3 Thoughts"
 date: 2024-03-20
-description: "对当前 Web3 生态的思考"
-tags: ["Web3", "区块链", "加密货币"]
-categories: ["技术思考"]
+description: "Reflections on Web3 Development"
+tags: ["Web3", "Blockchain", "Cryptocurrency"]
+categories: ["Tech"]
 showToc: true
 ---
 
-## 引言
+## Introduction
 
-在经历了几轮起伏后，Web3 生态正在逐渐走向成熟。本文将分享我对 Web3 现状的观察和未来发展的思考。
+After several cycles of ups and downs, the Web3 ecosystem is gradually maturing. Here are my thoughts on its current state and future development.
 
-## 当前生态现状
+## Current State
 
-### DeFi 的演进
+### DeFi Evolution
+
+The DeFi landscape has evolved significantly...
+
+### NFT Market Transformation
+
+NFTs are finding new use cases...
+
+### Infrastructure Improvements
+
+Layer 2 solutions and cross-chain bridges...
+
+## Future Outlook
 
 ...
 
-### NFT 市场的变革
-
-...
-
-### 基础设施的完善
-
-...
-
-## 未来展望
-
-...
-
-## 结语
+## Conclusion
 
 ... 

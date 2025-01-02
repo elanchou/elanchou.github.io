@@ -1,30 +1,31 @@
 ---
-title: "Pecker - AI 驱动的 RSS 阅读器"
+title: "Pecker - AI-Powered Content Hub"
 date: 2024-03-20
-description: "一款智能的 iOS RSS 阅读应用"
-tags: ["iOS", "AI", "RSS"]
+description: "All-in-one content aggregator with AI capabilities"
+tags: ["iOS", "AI", "Content"]
 showToc: true
 weight: 1
 ---
 
-## 项目简介
+## Overview
 
-Pecker 是一款基于人工智能的 RSS 阅读器，为用户提供智能化的内容筛选和推荐服务。
+Pecker is an intelligent content aggregator that brings together various information sources into one seamless experience. It supports RSS feeds, podcasts, YouTube (with Picture-in-Picture), Twitter, and Instagram.
 
-### 主要特性
+### Key Features
 
-- 智能内容摘要
-- 个性化推荐
-- 多源 RSS 订阅管理
-- 优雅的阅读体验
+- Smart content summaries using ChatGPT
+- Multi-source feed management
+- Daily AI-curated briefings
+- Cross-platform content sync
+- PiP support for video content
 
-### 技术栈
+### Technology
 
-- SwiftUI
-- Core ML
-- ChatGPT API
-- Core Data
+- SwiftUI for native iOS experience
+- Core ML for on-device processing
+- ChatGPT API for content analysis
+- Core Data for local storage
 
-## 下载链接
+## Download
 
-[App Store](https://apps.apple.com/app/pecker) 
+[Available on App Store](https://apps.apple.com/app/pecker) 

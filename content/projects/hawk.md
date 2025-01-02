@@ -1,30 +1,41 @@
 ---
-title: "Hawk - 加密货币量化交易系统"
+title: "Hawk - Crypto Trading System"
 date: 2024-03-20
-description: "高频量化交易系统"
-tags: ["量化交易", "加密货币", "Web3"]
+description: "High-frequency trading system for cryptocurrency markets"
+tags: ["Trading", "Cryptocurrency", "ML"]
 showToc: true
 weight: 2
 ---
 
-## 项目简介
+## Overview
 
-Hawk 是一个专注于加密货币市场的高频量化交易系统，提供实时行情分析和自动化交易执行。
+Hawk is a sophisticated high-frequency trading system designed for cryptocurrency markets, combining advanced ML models with real-time market data analysis.
 
-### 核心功能
+### Features
 
-- 实时市场数据分析
-- 高频交易策略实现
-- 风险控制系统
-- 多交易所支持
+- Automated data synchronization
+  - Price and volume data
+  - Technical indicators
+  - Market sentiment metrics
 
-### 技术架构
+- Advanced ML Integration
+  - Custom Transformer models
+  - Flexible input/activation configurations
+  - LSM-based trading model generation
 
-- 前端：React + TypeScript
-- 后端：Go
-- 数据库：TimescaleDB
-- 消息队列：Kafka
+- Trading Capabilities
+  - Real-time signal generation
+  - Direct integration with OKX and Binance
+  - Risk management system
 
-## 项目地址
+### Technology Stack
 
-[GitHub](https://github.com/elanchou/hawk) 
+- Frontend: React + TypeScript
+- Backend: Go
+- ML: PyTorch
+- Database: TimescaleDB
+- Message Queue: Kafka
+
+## Source Code
+
+[View on GitHub](https://github.com/elanchou/hawk) 
