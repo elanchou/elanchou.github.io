@@ -1,0 +1,150 @@
+/* 项目展示页面样式 */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.project-card {
+    background: var(--entry);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: 1px solid var(--border);
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+}
+
+.project-header {
+    padding: 1.5rem;
+}
+
+.project-type {
+    font-size: 0.875rem;
+    color: var(--secondary);
+    margin-bottom: 0.5rem;
+}
+
+.project-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.project-header p {
+    margin: 0.5rem 0 0;
+    color: var(--secondary);
+    line-height: 1.5;
+}
+
+.project-preview {
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    background: var(--code-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.project-preview img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.project-card:hover .project-preview img {
+    transform: scale(1.02);
+}
+
+.project-footer {
+    padding: 1.5rem;
+}
+
+.project-tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.project-tech-stack span {
+    font-size: 0.875rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    background: var(--code-bg);
+    color: var(--secondary);
+}
+
+.project-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.app-store-link {
+    display: block;
+}
+
+.app-store-link img {
+    height: 40px;
+    width: auto;
+    display: block;
+}
+
+.github-link, .learn-more {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.github-link:hover, .learn-more:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+/* 可选：添加箭头动画 */
+.learn-more {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.learn-more::after {
+    content: "→";
+    transition: transform 0.2s;
+    display: inline-block;
+    margin-left: 0.25rem;
+}
+
+.learn-more:hover::after {
+    transform: translateX(4px);
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+    .project-preview {
+        aspect-ratio: auto;
+        height: auto;
+        min-height: 200px;
+    }
+} 

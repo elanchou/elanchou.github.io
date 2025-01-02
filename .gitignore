@@ -1,0 +1,33 @@
+# Hugo generated files
+/public/
+/resources/_gen/
+/hugo_stats.json
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Node modules (if using npm/yarn for assets)
+node_modules/
+
+# Backup files
+*.bak
+
+# Hugo themes (if using submodules, you might want to track this)
+# /themes/
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Other
+*.env 

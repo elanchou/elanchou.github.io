@@ -1,0 +1,83 @@
+baseURL = 'https://elanchou.github.io/'
+languageCode = 'en-us'
+title = 'ElanChou'
+theme = 'PaperMod'
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[params]
+env = "production"
+title = "ElanChou"
+description = "iOS & Web3 Developer"
+keywords = ["Blog", "Portfolio", "iOS", "Web3"]
+author = "ElanChou"
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+
+# 主页设置
+[params.profileMode]
+enabled = true
+title = "ElanChou"
+subtitle = "Exploring the world"
+imageUrl = "profile.jpg"
+
+[[params.profileMode.buttons]]
+name = "Projects"
+url = "projects"
+
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "posts"
+
+[[params.profileMode.buttons]]
+name = "About"
+url = "about"
+
+# 社交媒体链接
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/elanchou"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/lucidity95"
+
+[[params.socialIcons]]
+name = "instagram"
+url = "https://instagram.com/rambler_c"
+
+# 导航菜单
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
+weight = 10
+
+[[menu.main]]
+identifier = "posts"
+name = "Blog"
+url = "/posts/"
+weight = 20
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 30
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params.assets]
+favicon = "icons/favicon.ico"
+favicon16x16 = "icons/favicon-16x16.png"
+favicon32x32 = "icons/favicon-32x32.png"
+apple_touch_icon = "icons/apple-touch-icon.png"

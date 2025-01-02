@@ -1,0 +1,61 @@
+{{ define "main" }}
+<article class="post-single">
+    <header class="post-header">
+        <h1 class="post-title">{{ .Title }}</h1>
+        <div class="post-description">{{ .Description }}</div>
+    </header>
+
+    <div class="post-content">
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-type">iOS App</div>
+                    <h2>Pecker</h2>
+                    <p>All-in-one content aggregator powered by AI, bringing RSS feeds, podcasts, YouTube (with PIP), Twitter, and Instagram into one seamless experience</p>
+                </div>
+                <div class="project-preview">
+                    <img src="/images/projects/pecker-preview.png" alt="Pecker App Preview">
+                </div>
+                <div class="project-footer">
+                    <div class="project-tech-stack">
+                        <span>SwiftUI</span>
+                        <span>Core ML</span>
+                        <span>ChatGPT</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://apps.apple.com/app/pecker" class="app-store-link" target="_blank">
+                            <img src="/images/app-store-badge.svg" alt="Download on App Store">
+                        </a>
+                        <a href="/projects/pecker" class="learn-more">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-type">Trading System</div>
+                    <h2>Hawk</h2>
+                    <p>High-frequency trading system with automated data synchronization, custom Transformer models, and real-time trading signals for crypto markets</p>
+                </div>
+                <div class="project-preview">
+                    <img src="/images/projects/hawk-preview.png" alt="Hawk System Preview">
+                </div>
+                <div class="project-footer">
+                    <div class="project-tech-stack">
+                        <span>React</span>
+                        <span>Go</span>
+                        <span>TimescaleDB</span>
+                        <span>PyTorch</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/elanchou/hawk" class="github-link" target="_blank">
+                            View on GitHub
+                        </a>
+                        <a href="/projects/hawk" class="learn-more">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+{{ end }} 
