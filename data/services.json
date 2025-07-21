@@ -1,0 +1,20 @@
+[
+  {
+    "name": "LibreTV",
+    "description": "免费在线视频搜索与观看平台，提供高质量的视频内容聚合服务",
+    "fqdn": "libretv.elan.us.kg",
+    "type": "Web Service",
+    "target": "https://libretv.elan.us.kg/",
+    "status": "active",
+    "category": "Entertainment"
+  },
+  {
+    "name": "Analytics Dashboard",
+    "description": "实时数据分析和可视化仪表板",
+    "fqdn": "analytics.elan.us.kg",
+    "type": "Web App",
+    "target": "https://analytics.elan.us.kg/",
+    "status": "maintenance",
+    "category": "Productivity"
+  }
+]

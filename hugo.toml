@@ -38,6 +38,10 @@ name = "Blog"
 url = "posts"
 
 [[params.profileMode.buttons]]
+name = "Services"
+url = "services"
+
+[[params.profileMode.buttons]]
 name = "About"
 url = "about"
 
@@ -68,10 +72,16 @@ url = "/posts/"
 weight = 20
 
 [[menu.main]]
+identifier = "services"
+name = "Services"
+url = "/services/"
+weight = 30
+
+[[menu.main]]
 identifier = "about"
 name = "About"
 url = "/about/"
-weight = 30
+weight = 40
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
