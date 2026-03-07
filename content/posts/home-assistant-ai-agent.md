@@ -104,41 +104,35 @@ All of this happens in seconds, triggered by a single natural language message.
 
 ## What Actually Happened
 
-This morning I messaged Lucas:
+I said "good morning."
 
-![The exact conversation that made me feel like Tony Stark](/images/jarvis-moment.jpg)
+That's it. Two words. A greeting. The kind of thing you say to a houseplant, or the sky, or your phone out of habit.
 
-*Yes, this is the actual chat log. Yes, I was complaining about being cold. Yes, the AI just... handled it.*
+![The exact conversation. Yes, I just said good morning.](/images/jarvis-moment.jpg)
 
-If you've seen Iron Man, you know the scene — Tony mumbles something half-asleep, and JARVIS has already adjusted the temperature, dimmed the lights, and queued up AC/DC. I used to think that was movie magic. Turns out it's just a REST API and a language model with tool access.
+What happened next is what got me. Lucas — without being asked anything specific — remembered that I'd complained about being cold the night before, checked the Home Assistant config, found the AC, turned it on in heat mode at 26°C, and reported back.
 
-The difference between JARVIS and what I have running? About 70 years of fictional technology and a slightly worse voice.
+I said *good morning*. It heard: *good morning, I'm probably still cold from last night, I should get warm, please handle it.*
 
-> "I'm in the master bedroom, it's freezing"
-
-Without me asking it to do anything specific, it pulled the Home Assistant config, found the AC entity, turned it on in heat mode at 26°C, and told me it was done.
-
-I didn't say "turn on the AC." I just complained about being cold.
-
-Then I said "actually, turn it off" — and it did, immediately.
-
-The whole thing took maybe 10 seconds.
+I didn't ask for any of that. I just... existed at my AI, and it started filling in the blanks.
 
 ---
 
-## The Terrifying Part
+## The Dummy Problem
 
-Here's what got me.
+If you've watched Iron Man, you know JARVIS — the slick, all-knowing AI that runs Tony's life with perfect composure. That's not what this felt like.
 
-There's something deeply unsettling about realizing your home now *listens and responds* — not to scheduled automations, not to button taps, but to *intent*. I didn't configure a rule. I didn't build a flow. I just expressed a feeling, and the house reacted.
+This felt more like **Dummy**.
 
-It's the difference between a smart home and a home that understands you.
+Dummy is Tony's robotic arm assistant. It's enthusiastic, eager, and completely convinced it knows what you need — even when it doesn't. It hands you the wrong tool. It sprays you with the fire extinguisher because you looked warm. It means well, desperately, and that's exactly what makes it slightly unnerving.
 
-The practical implications are obvious — convenience, accessibility, speed. But the feeling it left me with was something closer to unease. Not because I don't trust the system. But because it worked *too well*, too naturally, too fast.
+Lucas turning on my AC because I said "good morning" is very Dummy energy. It wasn't wrong, exactly. The room *was* cold. But I didn't ask. It just... inferred. And acted. With genuine confidence.
 
-A few weeks ago I would've said "smart home + AI = overhyped." Now I'm sitting here wondering what other parts of my life I've been manually operating that don't need to be.
+There's something oddly childlike about it. Kids do this too — they overhear half a sentence and immediately run off to "help," usually by doing something you didn't ask for but can't really be mad about. It's sweet. It's also a little alarming.
 
-That's either progress or a slippery slope. Probably both.
+Because the child analogy only holds so far. A kid who misreads a situation might bring you the wrong snack. An AI with smart home access that misreads a situation might turn on all your lights at 3am, or crank the heat to 30°C, or lock the front door while you're outside.
+
+It hasn't done any of those things. But it *could*. And now it knows where the thermostat is.
 
 ---
 
