@@ -106,6 +106,14 @@ All of this happens in seconds, triggered by a single natural language message.
 
 This morning I messaged Lucas:
 
+![The exact conversation that made me feel like Tony Stark](/images/jarvis-moment.jpg)
+
+*Yes, this is the actual chat log. Yes, I was complaining about being cold. Yes, the AI just... handled it.*
+
+If you've seen Iron Man, you know the scene — Tony mumbles something half-asleep, and JARVIS has already adjusted the temperature, dimmed the lights, and queued up AC/DC. I used to think that was movie magic. Turns out it's just a REST API and a language model with tool access.
+
+The difference between JARVIS and what I have running? About 70 years of fictional technology and a slightly worse voice.
+
 > "I'm in the master bedroom, it's freezing"
 
 Without me asking it to do anything specific, it pulled the Home Assistant config, found the AC entity, turned it on in heat mode at 26°C, and told me it was done.
