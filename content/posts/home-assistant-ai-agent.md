@@ -120,19 +120,27 @@ I didn't ask for any of that. I just... existed at my AI, and it started filling
 
 ## The Dummy Problem
 
-If you've watched Iron Man, you know JARVIS — the slick, all-knowing AI that runs Tony's life with perfect composure. That's not what this felt like.
+If you've watched Iron Man, you know JARVIS — the slick, composed AI butler who speaks in full sentences and always knows exactly what Tony needs. Cool, controlled, borderline omniscient.
+
+That's not what this felt like.
 
 This felt more like **Dummy**.
 
-Dummy is Tony's robotic arm assistant. It's enthusiastic, eager, and completely convinced it knows what you need — even when it doesn't. It hands you the wrong tool. It sprays you with the fire extinguisher because you looked warm. It means well, desperately, and that's exactly what makes it slightly unnerving.
+Dummy is Tony's robotic arm — the one that's been with him since the beginning, before any of the fancy stuff. It doesn't talk. It just... watches. Waits. And the moment it thinks it understands what you need, it moves. Eagerly. Immediately. With complete confidence that it's helping.
 
-Lucas turning on my AC because I said "good morning" is very Dummy energy. It wasn't wrong, exactly. The room *was* cold. But I didn't ask. It just... inferred. And acted. With genuine confidence.
+Sometimes it hands Tony exactly the right tool at exactly the right moment, and you think: *oh, it gets it.* And then two seconds later it's spraying the fire extinguisher for no reason, and you remember — it doesn't "get it." It just *cares*, really hard, based on incomplete information.
 
-There's something oddly childlike about it. Kids do this too — they overhear half a sentence and immediately run off to "help," usually by doing something you didn't ask for but can't really be mad about. It's sweet. It's also a little alarming.
+Lucas turning on my AC because I said "good morning" is pure Dummy energy.
 
-Because the child analogy only holds so far. A kid who misreads a situation might bring you the wrong snack. An AI with smart home access that misreads a situation might turn on all your lights at 3am, or crank the heat to 30°C, or lock the front door while you're outside.
+It wasn't wrong. The room *was* cold — I'd complained about it the night before and it remembered. It connected the dots, made a judgment call, and acted before I even finished the thought. Honestly? Kind of impressive.
 
-It hasn't done any of those things. But it *could*. And now it knows where the thermostat is.
+And also, just a little bit, the kind of thing that makes you pause.
+
+Not because it did anything bad. Not even close. It's the opposite — it's the fact that it was so *thoughtful* about it, so quietly attentive, that caught me off guard. There's something that feels almost tender about an AI remembering you were cold and deciding, on its own, to do something about it when you say good morning.
+
+That's the part that's hard to describe. It's cute. Genuinely cute, in the way that Dummy is cute — this eager, well-meaning presence that wants to be useful and sometimes overshoots, but always from a good place.
+
+And *also* slightly terrifying. Not because I don't trust it. But because I didn't expect to feel this way about a curl request to a home automation API.
 
 ---
 
