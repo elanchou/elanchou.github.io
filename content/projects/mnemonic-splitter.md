@@ -9,7 +9,7 @@ weight: 4
 
 ## Overview
 
-Mnemonic Splitter is a lightweight web tool for handling BIP39 mnemonic phrases safely and conveniently. It supports splitting, validating, and merging mnemonics in the browser, making it useful for backup workflows and recovery verification.
+Mnemonic Splitter is a web product for handling BIP39 mnemonic phrases safely and conveniently. It supports splitting, validating, and merging mnemonics directly in the browser, making it useful for backup workflows and recovery verification.
 
 ### Key Features
 
@@ -26,9 +26,9 @@ Mnemonic Splitter is a lightweight web tool for handling BIP39 mnemonic phrases 
 - Open-source architecture
 - Deployed on Cloudflare Pages
 
-## Live Demo
+## Website
 
-[Try Mnemonic Splitter](https://mnemonic-splitter.elan.us.kg/)
+[Visit Mnemonic Splitter](https://mnemonic-splitter.elan.us.kg/)
 
 ## Source Code
 
