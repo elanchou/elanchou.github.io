@@ -1,0 +1,25 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="card" x1="220" y1="110" x2="980" y2="565" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#1F2937"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="32" fill="url(#bg)"/>
+  <rect x="220" y="110" width="760" height="455" rx="28" fill="url(#card)" stroke="#334155" stroke-width="2"/>
+  <text x="270" y="190" fill="#E2E8F0" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="700">Mnemonic Splitter</text>
+  <text x="270" y="232" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="22">Open-source BIP39 mnemonic split / validate / merge tool</text>
+  <rect x="270" y="280" width="200" height="54" rx="14" fill="#0EA5E9" fill-opacity="0.16" stroke="#38BDF8"/>
+  <text x="310" y="314" fill="#7DD3FC" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600">BIP39 Split</text>
+  <rect x="490" y="280" width="180" height="54" rx="14" fill="#10B981" fill-opacity="0.16" stroke="#34D399"/>
+  <text x="530" y="314" fill="#86EFAC" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600">Validate</text>
+  <rect x="690" y="280" width="180" height="54" rx="14" fill="#A855F7" fill-opacity="0.16" stroke="#C084FC"/>
+  <text x="740" y="314" fill="#D8B4FE" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600">Merge</text>
+  <rect x="270" y="380" width="660" height="110" rx="18" fill="#0B1220" stroke="#334155"/>
+  <text x="300" y="428" fill="#CBD5E1" font-family="monospace" font-size="26">abandon ability able about above absent ...</text>
+  <text x="300" y="468" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="20">Browser-based mnemonic management with Cloudflare Pages deployment</text>
+</svg>
